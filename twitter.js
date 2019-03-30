@@ -1,30 +1,4 @@
 //this will be the final file
-//import {TWITTER_KEY, TWITTER_SECRET_KEY, TWITTER_TOKEN, TWITTER_SECRET_TOKEN} from './constants.js'
-/*const axios = require("axios")
-const base = "https://api.twitter.com/1.1/statuses/user_timeline.json?"
-var test_id = "realDonaldTrump";
-function set_id(id_to_set)
-{
-    test_id = id_to_set;
-}
-
-function getTweets(id)
-{//https://api.twitter.com/1.1/statuses/user_timeline.json?screen_name=twitterapi&count=2
-    axios({
-        method : 'get',
-        url : base + "screen_name=" + id + "&count=2",
-    })
-    .then((response)=>
-    {
-        console.log(response);
-    })
-    .catch((error)=>
-    {
-        console.log(error);
-    });
-}
-
-getTweets(test_id);*/
 const TWITTER_KEY = "E2AYztI1jFmmiIerD9CQVuO4b";
 const TWITTER_SECRET_KEY = "YxfpyTh19xyOcyBPkDsdP9SmnviQXRBMkkW3b28jpzWeN6ooON";
 const TWITTER_TOKEN = "1057692323239186432-GLPJ2V0hPjzAvYKfn8n6rsynqFAypL";
